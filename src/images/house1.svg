@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="50" viewBox="0 0 55 50">
+  <g id="house_1_left" data-name="house 1 left" transform="translate(-484 -858)" opacity="0.754">
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(488 877)" fill="#fff" stroke="#a1195f" stroke-linejoin="round" stroke-width="2.5">
+      <rect width="47" height="31" stroke="none"/>
+      <rect x="1.25" y="1.25" width="44.5" height="28.5" fill="none"/>
+    </g>
+    <g id="Polygon_1" data-name="Polygon 1" transform="translate(484 858)" fill="#fff" stroke-linejoin="bevel">
+      <path d="M 51.43651580810547 20.75 L 3.563486814498901 20.75 L 27.49999809265137 1.600789308547974 L 51.43651580810547 20.75 Z" stroke="none"/>
+      <path d="M 27.49999809265137 3.201555252075195 L 7.126945495605469 19.5 L 47.873046875 19.5 L 27.49999809265137 3.201555252075195 M 27.49999618530273 0.2806224822998047 C 27.72103881835938 0.2806224822998047 27.94208145141602 0.3536643981933594 28.12469100952148 0.4997501373291016 L 52.77391052246094 20.21912956237793 C 53.51205062866211 20.80964088439941 53.09449005126953 22 52.14922332763672 22 L 2.850780487060547 22 C 1.905502319335938 22 1.487953186035156 20.80964088439941 2.226081848144531 20.21912956237793 L 26.87530136108398 0.4997501373291016 C 27.05791282653809 0.3536643981933594 27.27895355224609 0.2806224822998047 27.49999618530273 0.2806224822998047 Z" stroke="none" fill="#a1195f"/>
+    </g>
+    <line id="Line_1" data-name="Line 1" y2="8" transform="translate(494.5 898.5)" fill="none" stroke="#a1195f" stroke-linecap="round" stroke-width="2.5"/>
+    <line id="Line_2" data-name="Line 2" y2="7" transform="translate(503.185 898.5)" fill="none" stroke="#a1195f" stroke-linecap="round" stroke-width="2.5"/>
+    <line id="Line_3" data-name="Line 3" x2="43.805" transform="translate(489.5 897.5)" fill="none" stroke="#a1195f" stroke-width="2.5"/>
+    <path id="Path_11" data-name="Path 11" d="M537.5,877l-6-4.6v-7.624h6Z" transform="translate(-4.195)" fill="none" stroke="#a1195f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+  </g>
+</svg>

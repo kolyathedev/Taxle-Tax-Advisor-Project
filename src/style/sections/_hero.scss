@@ -1,0 +1,173 @@
+#hero {
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 0px;
+  background: $white-color;
+  font-weight: 400;
+  color: $dark-blue-text;
+  padding: 0rem 4.6rem;
+  margin-bottom: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+
+  // If you want to set a background image on the hero section, uncomment these with yout custom image
+
+  /* background: url("/src/assets/[your-image].png");
+  background-position: center;
+  background-size: cover; */
+
+  @include respond(phone) {
+    padding: 0rem $default-font-size;
+  }
+
+  .hero-title {
+    font-size: 15.2rem;
+    text-align: center;
+    font-family: jaf-domus, sans-serif;
+    font-style: normal;
+
+    @include respond(tab-land) {
+      font-size: 4rem;
+    }
+    @include respond(tab-port) {
+      font-size: 3.6rem;
+      text-align: center;
+    }
+    @include respond(phone) {
+      font-size: 3.5rem;
+      line-height: 1.5;
+    }
+    @include respond(phone-xs) {
+      font-size: 2.8rem;
+    }
+  }
+
+  #subtitleHero {
+    font-display: block;
+    letter-spacing: 1px;
+    margin-bottom: 4rem;
+
+
+    @include respond(tab-land) {
+      font-size: 4rem;
+    }
+    @include respond(tab-port) {
+      font-size: 3.6rem;
+      text-align: center;
+    }
+    @include respond(phone) {
+      font-size: 3.5rem;
+      line-height: 1.5;
+    }
+    @include respond(phone-xs) {
+      font-size: 2.8rem;
+    }
+  }
+
+  #hero-welcome {
+    color: grey;
+    font-weight: 100;
+  }
+
+  h1 {
+    font-weight: 10;
+    font-size: 2.82rem;
+  }
+
+  .hero-cta {
+    display: flex;
+    justify-content: center;
+
+    @include respond(tab-port) {
+      justify-content: center;
+    }
+
+    & a {
+      font-size: 2.4rem;
+
+      @include respond(phone) {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  @keyframes hover {
+    from {
+      transform: translateY(0px);
+    }
+
+    to {
+      transform: translateY(40px);
+    }
+  }
+  .icon1 {
+    position: absolute;
+    @include iconSizeAndPos($bigIconHeight, $bigIconWidth, 25vw, 30vh);
+    animation: hover $medDuration ease-in-out infinite alternate none;
+    @include respond(phone) {
+      @include iconSizeAndPos($bigIconHeight, $bigIconWidth, 25vw, 5vh);
+    }
+  }
+  .icon2 {
+    position: absolute;
+    @include iconSizeAndPos($bigIconHeight, $bigIconWidth, 70vw, 60vh);
+  }
+  .icon3 {
+    position: absolute;
+    @include iconSizeAndPos($bigIconHeight, $bigIconWidth, 85vw, 20vh);
+    animation: hover $longDuration ease-in-out infinite alternate none;
+  }
+  .icon4 {
+    position: absolute;
+    @include iconSizeAndPos($smlIconHeight, $smlIconWidth, 30vw, 78vh);
+  }
+  .icon41 {
+    position: absolute;
+    @include iconSizeAndPos($smlIconHeight, $smlIconWidth, 30vw, 8vh);
+  }
+  .icon5 {
+    position: absolute;
+    @include iconSizeAndPos($bigIconHeight, $bigIconWidth, 78vw, 40vh);
+    @include respond(phone) {
+      @include iconSizeAndPos($bigIconHeight, $bigIconWidth, 68vw, 5vh);
+    }
+  }
+  .icon6 {
+    position: absolute;
+    @include iconSizeAndPos($bigIconHeight, $bigIconWidth, 10vw, 14vh);
+    animation: hover $lowDuration ease-in-out infinite alternate none;
+  }
+  .icon62 {
+    position: absolute;
+    @include iconSizeAndPos($smlIconHeight, $smlIconWidth, 10vw, 70vh);
+    animation: hover $longDuration ease-in-out 1s infinite alternate none;
+  }
+  .icon63 {
+    position: absolute;
+    @include iconSizeAndPos($medIconHeight, $medIconWidth, 84vw, 80vh);
+    animation: hover $lowDuration ease-in-out infinite alternate none;
+  }
+  .icon7 {
+    position: absolute;
+    @include iconSizeAndPos($bigIconHeight, $bigIconWidth, 70vw, 10vh);
+  }
+  .icon8 {
+    position: absolute;
+    @include iconSizeAndPos($medIconHeight, $medIconWidth, 20vw, 50vh);
+    @include respond(phone) {
+      display: none;
+    }
+  }
+
+  // class added to component if isMobile is true to reduce size.
+  .smallIcon {
+    width: 10%;
+    height: 10%;
+    opacity: 0.5;
+  }
+}
